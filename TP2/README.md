@@ -1,4 +1,4 @@
-# Relatório da TP1
+# Relatório da TP2
 ## Data: 2024-09-18
 ## Autor: Dinis Pereira a107199
 ## Resumo

@@ -39,9 +39,9 @@ if mod == "1":
 elif mod == "2":
     print("Está a pensar no numero 50?")
     resp2 = input("Qual a sua resposta?")
-    if resp2 == "Certo":
+    if resp2 == "Acertou":
         print("Eu sabia, consegui acertar com 1 tentativa!")
-    while resp2 != "Certo":
+    while resp2 != "Acertou":
         if resp2 == "O numero que pensei é maior":
             tent2 = tent2 + 1
             min = i

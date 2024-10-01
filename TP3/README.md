@@ -2,7 +2,7 @@
 ## Data: 24/09/25
 ## Autor: Dinis Pereira a107199
 ## Resumo
-O TP3 consistiu na resolução  de exercicios com ciclos e definição de funções
+O TP3 consistiu na resolução  de exercicios com ciclos, definição de funções e criação de um menu com as funções definidas previamente.
 
 Para além disso tivemos o TPC que consistiu em fazer o jogo dos 21 fósforos, no qual:
 - Existem duas modalidades: 1 - o jogador começa primeiro e 2 - o computador começa em primeiro

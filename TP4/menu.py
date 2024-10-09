@@ -84,7 +84,10 @@ def estaOrdenadaD(lista):
 def procurarElem(lista, elem):
     for i, element in enumerate(lista):
         if element == elem:
-            return i + 1
+            res = i
+    if elem not in lista:
+        res = -1
+    return res
 
 
 cond = True
@@ -115,12 +118,10 @@ while cond:
         print(estaOrdenadaD(varinterna))
     elif opcao == "9":
         elem = int(input("Qual o elemento que deseja saber a posição?"))
-        while elem not in varinterna:
-            print("Introduza dados válidos:")
-            elem = int(input("Qual o elemento que deseja saber a posição?"))
         print(f"O elemento {elem} encontra-se na posição {procurarElem(varinterna,elem)}")
     elif opcao == "0":
         cond = False
+        print(f"Aqui está a sua lista: {varinterna}")
         print("Volte sempre!")
     else:
         print("Introduza dados válidos:")

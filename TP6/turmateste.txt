@@ -1,0 +1,5 @@
+Joana Gomes::a108123::12::17::15
+João Fernandes::a107145::16::17::14
+Daniel Pereira::a107659::13::15::16
+Leonor Félix::a108230::16::17::16
+Daniela Ferreira::a105166::15::18::19

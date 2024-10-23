@@ -63,6 +63,7 @@ def buscarficheiro(turma, nomef):
         campos3 = [int(campos[2]), int(campos[3]), int(campos[4])]
         aluno = (campos[0], campos[1], campos3)
         turma.append(aluno)
+    file.close()
     return turma
 
 

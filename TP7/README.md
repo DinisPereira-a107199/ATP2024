@@ -6,9 +6,9 @@ O TP7 consistiu na resolução de exercícios de modelação e armazenamento em 
 
 Para o TPC tivemos de realizar uma aplicação com todas as funções realizadas na aula, bem como um menu para facilitar a interação com o programa. As funções
 desenvolvidas na aula foram :
-* média;
-* guardar e carregar o ficheiro com as informações metreológicas;
-* temperatura mínima;
+* Média;
+* Guardar e carregar o ficheiro com as informações metreológicas;
+* Temperatura mínima;
 * Amplitude Térmica;
 * Pluviosidade máxima;
 * Dias chuvosos;

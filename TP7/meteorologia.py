@@ -80,7 +80,7 @@ def grafTabMeteoT(t):
     data = [f"{ano} - {mes} - {dia}" for (ano, mes, dia), *_ in t]
     temps_min = [dia[1] for dia in t]
     temps_max = [dia[2] for dia in t]
-    plt.plot(data, temps_min, label = "Temperatura Min", color = "black", marker = "*")
+    plt.plot(data, temps_min, label = "Temperatura Min", color = "blue", marker = "*")
     plt.plot(data, temps_max, label = "Temperatura Max", color = "red", marker = ".")
     plt.legend()
     plt.xlabel("Dia")
@@ -92,7 +92,7 @@ def grafTabMeteoT(t):
 def grafTabMeteoP(t):
     data = [f"{ano} - {mes} - {dia}" for (ano, mes, dia), *_ in t]
     pluv = [dia[3] for dia in t]
-    plt.bar(data, pluv, color = "orange")
+    plt.bar(data, pluv, color = "darkblue")
     plt.xlabel("Dia")
     plt.ylabel("Pluviosidade, mm")
     plt.title("Pluviosidade")
@@ -115,8 +115,8 @@ def menu():
     (0) Sair
     ----------------------------""")
 
-opcao = "1"
-while opcao != "0":
+cond = True
+while cond = True:
     menu()
     opcao = input("Opção: ")
     if opcao == "1":
@@ -145,5 +145,9 @@ while opcao != "0":
         grafTabMeteoT(tabMeteo1)
     elif opcao == "A" or opcao == "a":
         grafTabMeteoP(tabMeteo1)
+    elif opcao == "0":
+        cond = False
+    else:
+        print(f"A opção {opcao} não é valida
 print("Volte Sempre!")
     

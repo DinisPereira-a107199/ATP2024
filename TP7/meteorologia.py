@@ -119,6 +119,9 @@ cond = True
 while cond = True:
     menu()
     opcao = input("Opção: ")
+    while opcao.lower() not in ['1','2','3', '4', '5', '6','7','8','9','a']:
+        print(f"A opção: {opcao} não é válida.")
+        opcao = input("Opção: ")
     if opcao == "1":
         print(f"A média em cada dia foi: {medias(tabMeteo1)}")
     elif opcao == "2":

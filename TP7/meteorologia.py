@@ -80,12 +80,12 @@ def grafTabMeteoT(t):
     data = [f"{ano} - {mes} - {dia}" for (ano, mes, dia), *_ in t]
     temps_min = [dia[1] for dia in t]
     temps_max = [dia[2] for dia in t]
-    plt.plot(data, temps_min, label = "Temperatura Min", color = "blue", marker = "*")
-    plt.plot(data, temps_max, label = "Temperatura Max", color = "red", marker = ".")
+    plt.plot(data, temps_min, label = "Temperatura Mín", color = "blue", marker = "*")
+    plt.plot(data, temps_max, label = "Temperatura Máx", color = "red", marker = ".")
     plt.legend()
     plt.xlabel("Dia")
     plt.ylabel("Temperatura, ºC")
-    plt.title("Temperatura Max e Min")
+    plt.title("Temperatura Máx e Mín")
     plt.show()
     return
 
@@ -120,7 +120,7 @@ while cond = True:
     menu()
     opcao = input("Opção: ")
     if opcao == "1":
-        print(f"A média em cada dia é: {medias(tabMeteo1)}")
+        print(f"A média em cada dia foi: {medias(tabMeteo1)}")
     elif opcao == "2":
         fnome = input("Qual o nome do ficheiro?")
         guardaTabMeteo(tabMeteo1, fnome)
@@ -134,7 +134,7 @@ while cond = True:
     elif opcao == "5":
         print(f"A amplitude térmica em cada dia foi: {amplTerm(tabMeteo1)}")
     elif opcao == "6":
-        print(f"A máxima pluviosidade for em : {maxChuva(tabMeteo1)}")
+        print(f"A máxima pluviosidade foi em : {maxChuva(tabMeteo1)}")
     elif opcao == "7":
         p = float(input("Qual o limite mínimo de pluviosidade?"))
         print(f"Os dias chuvosos foram: {diasChuvosos(tabMeteo1, p)}")
@@ -148,6 +148,6 @@ while cond = True:
     elif opcao == "0":
         cond = False
     else:
-        print(f"A opção {opcao} não é valida
+        print(f"A opção {opcao} não é valida.")
 print("Volte Sempre!")
     

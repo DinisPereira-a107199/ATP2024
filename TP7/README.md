@@ -1,5 +1,5 @@
 # Relatório da TP7
-## Data: 24/10/29
+## Data: 24/10/23
 ## Autor: Dinis Pereira a107199
 ## Resumo
 O TP7 consistiu na resolução de exercícios de modelação e armazenamento em memória secundária: o caso da tabela meteorológica.
